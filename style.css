@@ -1,0 +1,106 @@
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+li {
+    text-align:justify
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: yellow;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+}
+.main {
+
+}
+
+
+.title1{
+    font-size: large;
+    display: inline;
+    font-weight: bolder;
+    
+ }
+ .title2 {
+     margin-top: 10px;
+     text-align: justify;
+ }
+ .my-class {
+     padding-left: 15%;
+     padding-right: 15%;
+     text-align: center;
+     
+     
+    
+     
+ }
+
+ i {
+    border: 5px dotted yellow;
+    color:orange;
+    border-radius: 50%;
+    background:green;
+    background-clip: padding-box;
+    float:left;
+    
+ }
+ .fa {
+     
+     display:inline block;
+     
+ }
+ .my-class-1{
+     background:darkslategray;
+     position: relative;
+     width:100%;
+     
+ }
+ .img1{
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     border-radius: 50%;
+     width: 150px;
+     border: 5px dotted yellow;
+
+ }
+    #myid-1 {
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        border: 1px solid yellow;
+        border-radius: 10px;
+        background: yellow;
+        
+    }
+    .para1{
+        text-align:center;
+        
+        
+    }
+    .my-class-2{
+        position: absolute;
+        width: 20%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .main-right {
+        position: absolute;
+        width: 23%;
+        border-left: 1px solid black;
+        left: 49%;
+        padding-left: 30px;
+    }
